@@ -390,7 +390,7 @@ form {
 }
 
 .contact-details input::placeholder, textarea::placeholder {
-    color: #ffffff; 
+    color: #ffffff; /* Color del texto del placeholder en blanco */
 }
 
 .contact-details button {

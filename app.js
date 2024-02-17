@@ -26,7 +26,7 @@ const sendForm = () => {
             position: "center",
             icon: "error",
             title: "Por favor, complete todos los campos.",
-            showConfirmButton: true
+            showConfirmButton: true 
           });
 
     } else {
@@ -53,6 +53,7 @@ buttons.forEach(button => {
     button.addEventListener('click', () => {
   
         Swal.fire({
+            position: "center",
             title: 'More Info',
             text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Consectetur reprehenderit iure suscipit ex possimus omnis, 

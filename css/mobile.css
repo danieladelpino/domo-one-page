@@ -1,13 +1,13 @@
+body {
+    margin: 16px;
+}
+
+
 .nav-secundary {
     display: none;
     visibility: hidden;
 }
 
-
-.navbar-brand img {
-    width: 25%;
-    object-fit: cover;
-}
 
 .hero {
     display: block;
@@ -19,7 +19,7 @@
 }
 
 .container-title {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-top: 30px;
 }
 
@@ -35,11 +35,15 @@
 }
 
 .container-txt {
-
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
+.content-section,
+.content-section2,
+.content-section3 {
+    height: 100vh;
+}
 .content-flex svg {
     width: 30px;
 }
@@ -74,6 +78,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+}
+
+.social-media-title{
+    text-align: center;
 }
 
 .footer-title {
