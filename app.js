@@ -52,14 +52,12 @@ const buttons = document.querySelectorAll('.menu-btn, .menu-btn2, .menu-btn3');
 buttons.forEach(button => {
     button.addEventListener('click', () => {
   
-
         Swal.fire({
-            title: "More Info",
-            text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Consectetur reprehenderit iure suscipit ex possimus omnis, 
-            placeat expedita esse libero perferendis modi, amet quae vero, 
-            earum totam repellat quaerat unde accusantium.`,
-            icon: 'info'
+            position: "center",
+            icon: "info",
+            title: "More info coming soon",
+            showConfirmButton: false,
+            timer: 1500
           });
 
     });
