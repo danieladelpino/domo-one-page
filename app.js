@@ -54,8 +54,8 @@ buttons.forEach(button => {
   
         Swal.fire({
             position: "center",
-            icon: "info",
-            title: "More info coming soon",
+            icon: "success",
+            title: "¡Formulario enviado con éxito!",
             showConfirmButton: false,
             timer: 1500
           });

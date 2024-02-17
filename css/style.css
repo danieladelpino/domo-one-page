@@ -36,6 +36,17 @@
     margin-left: 10px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HERO */
+
 .hero {
     background-color: #dee8f1;
     height: 100vh;
@@ -45,15 +56,20 @@
     align-items: center;
 }
 
+.content-flex {
+    display: flex;
+}
+
 .container-title {
     color: #839bba;
     font-size: 4rem;
     font-weight: 600;
 }
 
-
-.content-flex {
-    display: flex;
+.container-txt {
+    width: 50%;
+    font-size: 1.5rem;
+    color: #868686;
 }
 
 .content-flex svg {
@@ -73,23 +89,13 @@
     font-size: 1.3rem;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
 .content-elements {
     flex: 1;
-    /* El contenido ocupará el espacio restante */
 }
 
 .content-img {
     flex: 1;
-    /* La imagen ocupará el mismo espacio que el contenido */
     text-align: right;
-    /* Alinear imagen a la derecha */
 }
 
 .content-img img {
@@ -97,12 +103,7 @@
 }
 
 
-
-.container-txt {
-    width: 50%;
-    font-size: 1.5rem;
-    color: #868686;
-}
+/* BUTTONS */
 
 .btn-container {
     background-color: #6f6158;
@@ -132,7 +133,7 @@
     
 }
 
-
+/* MENU */
 
 .menu-title {
     color: #ffffff;
@@ -153,7 +154,10 @@
     color: #434749;
 }
 
-.menu-btn {
+.menu-btn,
+.menu-btn2,
+.menu-btn4
+  {
     background-color: #819cc2;
     border: 1px solid #434749; 
     color: white; 
@@ -162,26 +166,9 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
 }
 
-.menu-btn2 {
-    background-color: #a3b9d4;
-    border: 1px solid #434749; 
-    color: white; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
-}
 
 .menu-btn3 {
     background-color: #d7e1ee;
-    border: 1px solid #434749; 
-    color: white; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
-}
-
-.menu-btn4 {
-    background-color: #b8c8df;
     border: 1px solid #434749; 
     color: white; 
     border-radius: 5px; 
@@ -200,8 +187,6 @@
 .menu-number1 svg {
     color: #ffffff;
 }
-
-
 
 .menu-title3 {
     color: #9f9f9f;
@@ -239,6 +224,7 @@
     padding: 1%;
 }
 
+/* CONTENT */
 
 .content-section,
 .content-section2,
@@ -256,6 +242,22 @@
     background-color: #eae5e2;
 }
 
+/* JS */
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* FOOTER */
+
+
 footer {
     color: #ffffff;
     background-color: #89adcf;
@@ -265,16 +267,16 @@ footer {
     padding: 2% 20%;
 }
 
-.footer-title {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
 form {
     display: flex;
     flex-direction: column;
 
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .contact-title,
@@ -291,30 +293,6 @@ form {
     cursor: pointer;
 }
 
-
-.line-up {
-    background-color: #cac2bf;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.line-up button {
-    background-color: #8ba6d0;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    /* Para que todas las columnas tengan la misma altura */
-    max-width: 800px;
-    /* Ancho máximo del contenedor */
-    margin: 0 auto;
-    /* Centrar el contenedor */
-    padding: 20px;
-}
 
 .contact-form,
 .contact-details,
@@ -357,21 +335,6 @@ form {
     color: #5f534c;
 }
 
-
-
-.hidden {
-    opacity: 0;
-    /* filter: blur(5px); */
-    transition: all 1s;
-    /* transform: translateX(-100%); */
-}
-
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-
 .social-media {
     display: flex; 
     flex-direction: column;
@@ -390,7 +353,7 @@ form {
 }
 
 .contact-details input::placeholder, textarea::placeholder {
-    color: #ffffff; /* Color del texto del placeholder en blanco */
+    color: #ffffff; 
 }
 
 .contact-details button {
@@ -455,4 +418,3 @@ form {
     background-color: #6f6158;
     
 }
-
