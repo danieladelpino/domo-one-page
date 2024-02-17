@@ -1,0 +1,65 @@
+.nav-secundary {
+    display: none;
+    visibility: hidden;
+}
+
+
+.navbar-brand img {
+    width: 25%;
+    object-fit: cover;
+}
+
+.hero {
+    display: block;
+}
+
+.container-title {
+    font-size: 3rem;
+    margin-top: 3%;
+}
+
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-txt {
+
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.content-flex svg {
+    margin-right: 2%;
+    width: 60px;
+}
+
+.content-img img {
+    width: 250px;
+    height: 200px;
+}
+
+
+.footer-title {
+  display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+}
