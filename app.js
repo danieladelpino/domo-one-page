@@ -53,11 +53,11 @@ buttons.forEach(button => {
     button.addEventListener('click', () => {
   
         Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "¡Formulario enviado con éxito!",
-            showConfirmButton: false,
-            timer: 1500
+            title: "More Info",
+            text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit iure suscipit
+            ex possimus omnis, placeat expedita esse libero perferendis modi, amet quae vero, earum totam
+            repellat quaerat unde accusantium.`,
+            icon: "info"
           });
 
     });
