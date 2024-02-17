@@ -1,3 +1,6 @@
+* {
+    overflow-x: hidden;
+}
 
 body {
     margin: 16px;
@@ -31,6 +34,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 
 }
 
@@ -44,31 +48,33 @@ body {
 .content-section3 {
     height: 100vh;
 }
+
 .content-flex svg {
     width: 30px;
 }
+
 .content-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-top: 12px;
 }
 
-.content-txt{
+.content-txt {
     font-size: 1rem;
     width: 100%;
 }
 
-.content-img  {
+.content-img {
     text-align: center;
 }
+
 .content-img img {
     margin-top: 20px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
-
-.contact-form, 
-.contact-details, 
+.contact-form,
+.contact-details,
 .social-media {
     padding: 0;
 }
@@ -80,7 +86,7 @@ body {
     margin-top: 10px;
 }
 
-.social-media-title{
+.social-media-title {
     text-align: center;
 }
 

@@ -26,17 +26,17 @@ const sendForm = () => {
             position: "center",
             icon: "error",
             title: "Por favor, complete todos los campos.",
-            showConfirmButton: true 
-          });
+            showConfirmButton: true
+        });
 
     } else {
-          Swal.fire({
+        Swal.fire({
             position: "center",
             icon: "success",
             title: "¡Formulario enviado con éxito!",
             showConfirmButton: false,
             timer: 1500
-          });
+        });
 
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
@@ -51,14 +51,14 @@ const buttons = document.querySelectorAll('.menu-btn, .menu-btn2, .menu-btn3');
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
-  
+
         Swal.fire({
             title: "More Info",
             text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit iure suscipit
             ex possimus omnis, placeat expedita esse libero perferendis modi, amet quae vero, earum totam
             repellat quaerat unde accusantium.`,
             icon: "info"
-          });
+        });
 
     });
 });
