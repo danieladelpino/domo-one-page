@@ -80,7 +80,7 @@
 
 .content-title {
     color: #839bba;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -114,6 +114,7 @@
     border: none;
     border-radius: 5px;
     outline: none;
+    overflow: hidden;
 
 }
 
@@ -130,6 +131,7 @@
     border: none;
     border-radius: 5px;
     outline: none;
+    overflow: hidden;
 
 }
 
@@ -163,6 +165,7 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 
@@ -173,6 +176,7 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .menu-btn,
@@ -229,7 +233,7 @@
 .content-section2,
 .content-section3 {
     padding: 4%;
-    height: 70vh;
+    height: 100vh;
 }
 
 .content-section,
